@@ -1,0 +1,40 @@
+.mark-container {
+  position: fixed;
+  top: 70px;
+  left: -130px;
+}
+
+.bookmark {
+  color: #b799ff;
+}
+
+.mark-box:nth-child(1):hover {
+  animation: mark-box 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.mark-box:nth-child(2):hover {
+  animation: mark-box 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.mark-box:nth-child(3):hover {
+  animation: mark-box 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes mark-box {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(55px);
+  }
+}
+
+.mark-box {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 50px;
+}

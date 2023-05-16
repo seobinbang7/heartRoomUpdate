@@ -1,0 +1,27 @@
+:root {
+  --puple-color: #8d51ff;
+}
+
+.container {
+  height: 150vh;
+  width: 100vw;
+  background-image: url("../../../public/images/bg/star.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  /* border: 1px solid #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
