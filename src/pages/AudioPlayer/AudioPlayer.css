@@ -2,4 +2,6 @@
 .volumeOff {
   color: white;
   cursor: pointer;
+  padding-top: 15px;
+  padding-left: 15px;
 }
